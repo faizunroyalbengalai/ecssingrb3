@@ -1,6 +1,5 @@
 terraform {
   backend "s3" {
-    key     = "ecssingrb3/terraform.tfstate"
     encrypt = true
     # bucket and region passed via -backend-config at init time
   }
